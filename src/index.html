@@ -6,65 +6,77 @@
         <link href="./style.css" rel="stylesheet">
     </head>
 
-    <body class="bg-[url(./images/darkforest.jpg)] ...">
-        <h1 class="text-3xl font-bold underline">
-            Hello world!
-        </h1>
-
-        <div>
-                <div id="side-bar">
-                    <div id="title-section">
-                        <img src="./images/Netflix-new-icon.png"> <!--netflix logo-->
-                    </div>
-
-                    <div id="useful-links-section">
-                        <a href="#"><img src="#">Browse</a>
-                        <a href="#"><img src="#">Watch Later</a>
-                        <a href="#"><img src="#">Comming Soon</a>
-                    </div>
-
-                    <div id="trailers-section">
-                        <h3>New Trailers <img src="#"></h3>
-                        <div id="all-trailers">
-
-                            <div id="trailer-1">
-                                <img class="aspect-3/2 object-cover ..." src="./images/brown.jpg">
-
-                                <div id="play-bar-1">
-                                    <p>Shadow and Bone</p>
-                                    <button><img src="#"></button>
-                                </div>
-
+    <body class="w-screen">
+        <div class="flex flex-row" id="main-body">
+            <!-- <div class="w-screen bg-cover bg-[url(./images/darkforest.jpg)]">
+                <div class="main flex gap-8 itmes-center px-10">
+                    <div class="h-screen flex items-center">
+                        <div class="nav bg-white/20 backdrop-blur-lg flex-none w-20 rounded-full border-4 p-4">
+                            <div class="navbuttons flex flex-col space-y-6 items-centerpy-8">
+                                <button class="bg-red-500 rounded-full p-3">
+                                    <img src="#">
+                                </button>
                             </div>
+                        </div>
+                    </div>
+                    <div class=""></div>
+                </div> -->
 
-                            <div id="trailer-2">
-                                <img src="./images/minecraft-campfire.jpg">
+            <div class="flex flex-row"></div>
 
-                                <div id="play-bar-2">
-                                    <p>The Night Agent</p>
-                                    <button><img src="#"></button>
-                                </div>
+            <div class="basis-1/4" id="side-bar">
+                <div id="title-section">
+                    <img src="./images/Netflix-new-icon.png"> netflix logo
+                </div>
 
-                            </div>
+                <div id="useful-links-section">
+                    <a href="#"><img src="#">Browse</a>
+                    <a href="#"><img src="#">Watch Later</a>
+                    <a href="#"><img src="#">Comming Soon</a>
+                </div>
 
-                            <div id="trailer-3">
-                                <img src="./images/pokemon-game-play.jpg">
+                <div id="trailers-section">
+                    <h3>New Trailers <img src="#"></h3>
+                    <div id="all-trailers">
 
-                                <div id="play-bar-3">
-                                    <p>The Witcher</p>
-                                    <button><img src="#"></button>
-                                </div>
+                        <div id="trailer-1">
+                            <img class="aspect-3/2 object-cover ..." src="./images/brown.jpg">
 
+                            <div id="play-bar-1">
+                                <p>Shadow and Brown</p>
+                                <button><img src="#"></button>
                             </div>
 
                         </div>
-                    </div>
 
+                        <div id="trailer-2">
+                            <img src="./images/minecraft-campfire.jpg">
+
+                            <div id="play-bar-2">
+                                <p>The Night Camp</p>
+                                <button><img src="#"></button>
+                            </div>
+
+                        </div>
+
+                        <div id="trailer-3">
+                            <img src="./images/pokemon-game-play.jpg">
+
+                            <div id="play-bar-3">
+                                <p>The White</p>
+                                <button><img src="#"></button>
+                            </div>
+
+                        </div>
+
+                    </div>
                 </div>
 
-            <div id="main-body">
+            </div>
 
-                <div id="top-bar">
+            <div class="basis-3/4" id="main-body">
+
+                <div class="flex flex-row" id="top-bar">
 
                     <div id="arrow-buttons-section">
                         <button><img src="#"></button>
@@ -83,9 +95,19 @@
                             <button><img src="#"></button>
                         </div>
 
+                        <!-- <div class="flex flex-col gap-2 p-8 sm:flex-row sm:items-center sm:gap-6 sm:py-4 ...">
+                            <img class="mx-auto block h-24 rounded-full sm:mx-0 sm:shrink-0" src="./images/john-smith.jpg" alt="" />
+                            <div class="space-y-2 text-center sm:text-left">
+                                <div class="space-y-0.5">
+                                    <p class="text-lg font-semibold text-black">John Smith</p>
+                                    <p class="font-medium text-gray-500">@johnsmith</p>
+                                </div>
+                            </div>
+                        </div> -->
+
                         <div id="user-account-section">
                             <button>
-                                <img src="#">
+                                <img src="./images/john-smith.jpg">
                                 <p>John Smith</p>
                                 <p>@johnsmith</p>
                             </button>
@@ -121,10 +143,10 @@
                             <h4>Continue Watching</h4>
                         </div>
                         <div class="flex flex-nowrap" id="second-movie-row-section">
-                            <img src="#">
-                            <img src="#">
-                            <img src="#">
-                            <img src="#">
+                            <img src="./images/snowy-castle.jpg">
+                            <img src="./images/sleepy-bed.jpg">
+                            <img src="./images/neo-night-drive.jpg">
+                            <img src="./images/sad-city.jpg">
                         </div>
                     </div>
 
